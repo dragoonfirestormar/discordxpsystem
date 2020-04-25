@@ -1,0 +1,24 @@
+{
+    "guildID": {
+        "guildName": "Guild Test Beta",
+        "userID001": {
+            "userTag": "User Zero Zero One",
+            "userXP": 12345,
+            "userLevel": 3
+        },
+        "userID002": {
+            "userTag": "User Zero Zero Two",
+            "userXP": 54321,
+            "userLevel": 8
+        }
+    },
+    "509034175140200489": {
+        "guildName": "Hack-o'-Fraggers",
+        "memberCount": 76,
+        "182749079024041985": {
+            "userTag": "ÆI#9916",
+            "userXP": 116,
+            "userLevel": 0
+        }
+    }
+}
