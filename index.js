@@ -58,11 +58,6 @@ client.on('message', async message => {
 		let xpWorker = JSON.parse(xpFile);
 		message.channel.send(`${message.member}, your are currently on level ${xpWorker[message.guild.id][message.author.id]['userLevel']}, with ${xpWorker[message.guild.id][message.author.id]['userXP']} XP!`);
 	}
-	if(message.content.toLowerCase() === `${prefix}nice`){
-		let xpFile = await fs.readFile('nicecount.json', 'utf8');
-		let niceWorker = JSON.parse(xpFile);
-		message.channel.send(`${message.member} your nice count is ${niceWorker[message.author.id]['niceCOUNT']}.`);
-	}
 	if(message.content.toLowerCase() === `${prefix}list`){
 		let xpFile = await fs.readFile('userxp.json', 'utf8');
 		let xpWorker = JSON.parse(xpFile);
